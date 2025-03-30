@@ -1,0 +1,61 @@
+#main topic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1,h3,h5{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black  ;
+    border-bottom: dashed;
+    
+}
+
+.para{
+    color:white;
+    background-color:cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}
+.para:nth-of-type(2n+1){
+    color:yellow;
+    
+}
+h1::first-letter{
+    color: red;
+}
+#yes:checked+label{
+    color: darkgreen;
+}
+
+#hello{
+    height:50px ;
+    width: 900px;
+    background-color: pink;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content:  center;
+        
+}
+
+.think{
+    font-size: 24px;
+    height: 50px;
+    width: 80px;
+    display: flex; 
+     justify-content: flex-start;
+    align-items:center;
+}
+h4{
+    font-family: "Poppins", serif;
+}
